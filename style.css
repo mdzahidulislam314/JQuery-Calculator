@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+h2{
+    text-align: center;
+}
+
+.card{
+    margin: 0 auto;
+    max-width: 350px;
+    text-align: center;
+    margin-top: 30px;
+    box-shadow: 0 4px 8px 0 #dddd;
+
+}
+
+.cal-head #headId{
+    width: 350px;
+    height: 80px;
+    font-size: 22px;
+    font-weight: bold;
+    text-align: right;
+    letter-spacing: 2px;
+}
+
+.body-btn .btn{
+    width: 80px;
+    height: 70px;
+    font-weight: bold;
+    margin-top: 5px;
+    font-size: 20px;
+
+}
+
+.body-btn {
+    margin: 5px;
+}

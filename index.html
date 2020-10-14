@@ -1,0 +1,69 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+    <title>Jquery Claculator</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+        <div class="section">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xl-6 offset-xl-3">
+                        <h2>JQuery Calculator Example</h2>
+                        <div class="card">
+                            <div class="cal-head">
+                                <input type="text" id="headId" maxlength="10">
+                            </div>
+                            <div class="body-btn">
+                                <div>
+                                    <input type="button" value="C" class="btn btn-dark" onclick="clearResult()">
+                                    <input type="button" value="+/-" class="btn btn-dark">
+                                    <input type="button" value="%" class="btn btn-dark" onclick="insertNum('%')">
+                                    <input type="button" value="/" class="btn btn-dark" onclick="insertNum('/')">
+                                </div>
+                                <div>
+                                    <input type="button" value="7" class="btn btn-dark" onclick="insertNum(7)">
+                                    <input type="button" value="8" class="btn btn-dark" onclick="insertNum(8)">
+                                    <input type="button" value="9" class="btn btn-dark" onclick="insertNum(9)">
+                                    <input type="button" value="*" class="btn btn-info" onclick="insertNum('*')">
+                                </div>
+                                <div>
+                                    <input type="button" value="4" class="btn btn-dark" onclick="insertNum(4)">
+                                    <input type="button" value="5" class="btn btn-dark" onclick="insertNum(5)">
+                                    <input type="button" value="6" class="btn btn-dark" onclick="insertNum(6)">
+                                    <input type="button" value="-" class="btn btn-info" onclick="insertNum('-')">
+                                </div>
+                                <div>
+                                    <input type="button" value="1" class="btn btn-dark" onclick="insertNum(1)">
+                                    <input type="button" value="2" class="btn btn-dark" onclick="insertNum(2)">
+                                    <input type="button" value="3" class="btn btn-dark" onclick="insertNum(3)">
+                                    <input type="button" value="+" class="btn btn-info" onclick="insertNum('+')">
+                                </div>
+                                <div>
+                                    <input type="button" value="0" class="btn btn-dark" onclick="insertNum(0)">
+                                    <input type="button" value="." class="btn btn-dark" onclick="insertNum('.')">
+                                    <input type="button" value="DEL" class="btn btn-dark" onclick="deleteNum()">
+                                    <input type="button" value="=" class="btn btn-success" onclick="calculate()">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+    <!-- Optional JavaScript -->
+    <script src="main.js"></script>
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+  </body>
+</html>
